@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <title>Nuvè Ameà</title>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;family=Jost:wght@300;400;500&amp;display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html,body{height:100%}
@@ -35,14 +35,14 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 .pills{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:clamp(24px,5vw,36px);}
 .pill{display:flex;align-items:center;gap:6px;padding:6px 14px;border-radius:100px;border:1px solid var(--border);font-size:11px;color:var(--muted);background:var(--surface2);}
 .pill-star{color:var(--gold);}
-.btn{display:flex;align-items:center;justify-content:center;gap:10px;font-family:'Jost',sans-serif;font-weight:500;letter-spacing:.15em;text-transform:uppercase;border-radius:100px;border:none;cursor:pointer;position:relative;z-index:200;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;}
+.btn{display:flex;align-items:center;justify-content:center;gap:10px;font-family:'Jost',sans-serif;font-weight:500;letter-spacing:.15em;text-transform:uppercase;border-radius:100px;border:none;cursor:pointer;position:relative;z-index:200;appearance:none;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;}
 .btn:active{opacity:.82;transform:scale(.97);}
 .btn-gold{background:var(--gold);color:#0b0a0d;font-size:clamp(11px,2vw,13px);padding:clamp(14px,3vw,18px) clamp(20px,5vw,36px);width:100%;max-width:300px;box-shadow:0 6px 24px rgba(var(--acrgb),.25);}
 /* GENDER */
 .gender-title{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,5vw,34px);font-weight:300;line-height:1.2;margin-bottom:8px;}
 .gender-sub{font-size:clamp(12px,2vw,13px);color:var(--muted);margin-bottom:clamp(24px,5vw,36px);line-height:1.6;}
 .gender-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(10px,3vw,16px);}
-.gender-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:clamp(24px,5vw,36px) 16px;background:var(--surface2);border:1px solid var(--border);border-radius:14px;cursor:pointer;position:relative;z-index:200;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:border-color .2s,background .2s;width:100%;}
+.gender-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:clamp(24px,5vw,36px) 16px;background:var(--surface2);border:1px solid var(--border);border-radius:14px;cursor:pointer;position:relative;z-index:200;appearance:none;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:border-color .2s,background .2s;width:100%;}
 .gender-btn:active{border-color:var(--accent);background:rgba(var(--acrgb),.12);transform:scale(.97);}
 .gender-icon{font-size:clamp(32px,7vw,48px);line-height:1;}
 .gender-label{font-family:'Cormorant Garamond',serif;font-size:clamp(20px,4vw,26px);font-weight:300;color:var(--cream);}
@@ -58,7 +58,7 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 .q-text{font-family:'Cormorant Garamond',serif;font-size:clamp(18px,4vw,26px);font-weight:400;line-height:1.3;color:var(--cream);margin-bottom:clamp(16px,3vw,24px);}
 .opts{display:grid;gap:clamp(8px,2vw,10px);grid-template-columns:1fr;}
 @media(min-width:560px){.opts{grid-template-columns:1fr 1fr;}}
-.opt{display:flex;align-items:flex-start;gap:10px;width:100%;padding:clamp(13px,2.5vw,16px) clamp(12px,2.5vw,16px);background:var(--surface2);border:1px solid var(--border);border-radius:12px;text-align:left;color:var(--cream);font-family:'Jost',sans-serif;font-size:clamp(12px,2vw,13.5px);font-weight:300;line-height:1.45;min-height:clamp(54px,9vw,68px);cursor:pointer;position:relative;z-index:200;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:border-color .2s,background .2s;}
+.opt{display:flex;align-items:flex-start;gap:10px;width:100%;padding:clamp(13px,2.5vw,16px) clamp(12px,2.5vw,16px);background:var(--surface2);border:1px solid var(--border);border-radius:12px;text-align:left;color:var(--cream);font-family:'Jost',sans-serif;font-size:clamp(12px,2vw,13.5px);font-weight:300;line-height:1.45;min-height:clamp(54px,9vw,68px);cursor:pointer;position:relative;z-index:200;appearance:none;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;transition:border-color .2s,background .2s;}
 .opt:active,.opt.selected{border-color:var(--accent);background:rgba(var(--acrgb),.12);}
 .opt-ltr{width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.06);border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:500;color:var(--muted);flex-shrink:0;margin-top:1px;transition:all .2s;}
 .opt.selected .opt-ltr{background:var(--accent);color:#0b0a0d;border-color:var(--accent);}
@@ -91,23 +91,6 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 .s-val{font-size:10px;width:14px;text-align:right;flex-shrink:0;}
 /* Section title */
 .res-s-title{font-family:'Cormorant Garamond',serif;font-size:clamp(18px,4vw,22px);font-weight:400;color:var(--cream);margin-bottom:16px;}
-/* S2 Recipe notes */
-.notes-grid{display:grid;grid-template-columns:1fr;gap:10px;}
-@media(min-width:480px){.notes-grid{grid-template-columns:repeat(3,1fr);}}
-.note-card{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:14px 16px;}
-.note-type{font-size:8px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:6px;}
-.note-pct{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:300;color:var(--goldlit);margin-bottom:2px;display:flex;align-items:baseline;gap:8px;}
-.note-ml{font-family:'Jost',sans-serif;font-size:10px;font-weight:400;color:var(--muted);letter-spacing:.05em;}
-.note-list{list-style:none;padding:0;margin-top:8px;}
-.note-list li{font-size:11.5px;color:var(--muted);line-height:1.7;padding-left:10px;position:relative;display:flex;justify-content:space-between;align-items:center;}
-.note-list li::before{content:"·";position:absolute;left:0;color:var(--gold);}
-.note-ingredient{flex:1;}
-.note-amount{font-size:10.5px;color:var(--accent);font-weight:500;flex-shrink:0;margin-left:6px;}
-/* S3 Oils */
-.oils-list{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px;}
-@media(max-width:400px){.oils-list{grid-template-columns:1fr;}}
-.oils-list li{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:10px 12px;}
-.oils-list li::before{content:"✦";color:var(--gold);font-size:9px;flex-shrink:0;}
 /* S4 Pair */
 .pair-card{background:var(--surface2);border:1px solid rgba(var(--acrgb),.25);border-radius:12px;overflow:hidden;}
 .pair-header{display:flex;align-items:center;gap:14px;padding:16px;}
@@ -116,17 +99,9 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 .pair-label{font-size:8px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-bottom:4px;}
 .pair-name{font-family:'Cormorant Garamond',serif;font-size:clamp(18px,3.5vw,22px);font-weight:300;color:var(--goldlit);margin-bottom:3px;}
 .pair-tag{font-size:11px;color:var(--muted);font-style:italic;}
-.pair-toggle{display:flex;align-items:center;gap:6px;background:transparent;border:none;border-top:1px solid var(--border);width:100%;padding:12px 16px;cursor:pointer;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;position:relative;z-index:200;color:var(--gold);font-family:'Jost',sans-serif;font-size:11px;font-weight:400;letter-spacing:.12em;text-transform:uppercase;}
-.pair-toggle:active{opacity:.75;}
-.pair-toggle-arrow{margin-left:auto;font-size:14px;transition:transform .3s ease;}
-.pair-toggle.open .pair-toggle-arrow{transform:rotate(180deg);}
-.pair-recipe{display:none;padding:0 16px 16px;}
-.pair-recipe.open{display:block;}
-.pair-notes-grid{display:grid;grid-template-columns:1fr;gap:8px;margin-top:4px;}
-@media(min-width:480px){.pair-notes-grid{grid-template-columns:repeat(3,1fr);}}
 /* S5 Customization */
 .custom-grid{display:grid;grid-template-columns:1fr;gap:8px;}
-.custom-btn{display:flex;align-items:center;gap:12px;width:100%;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;cursor:pointer;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;position:relative;z-index:200;transition:border-color .2s,background .2s;text-align:left;}
+.custom-btn{display:flex;align-items:center;gap:12px;width:100%;padding:14px 16px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;cursor:pointer;appearance:none;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;position:relative;z-index:200;transition:border-color .2s,background .2s;text-align:left;}
 .custom-btn:active{border-color:var(--accent);background:rgba(var(--acrgb),.1);}
 .custom-btn.active-mod{border-color:var(--accent);background:rgba(var(--acrgb),.12);}
 .custom-icon{font-size:20px;flex-shrink:0;}
@@ -136,7 +111,7 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 .custom-check{width:20px;height:20px;border-radius:50%;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;font-size:10px;color:transparent;transition:all .2s;flex-shrink:0;}
 .custom-btn.active-mod .custom-check{background:var(--accent);border-color:var(--accent);color:#0b0a0d;}
 /* S6 Retake */
-.btn-outline-retake{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;max-width:260px;margin:0 auto;padding:clamp(13px,2.5vw,16px) 28px;background:transparent;border:1px solid rgba(var(--acrgb),.4);color:var(--gold);font-family:'Jost',sans-serif;font-weight:500;font-size:clamp(10px,1.8vw,12px);letter-spacing:.15em;text-transform:uppercase;border-radius:100px;cursor:pointer;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;position:relative;z-index:200;min-height:50px;transition:all .25s ease;}
+.btn-outline-retake{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;max-width:260px;margin:0 auto;padding:clamp(13px,2.5vw,16px) 28px;background:transparent;border:1px solid rgba(var(--acrgb),.4);color:var(--gold);font-family:'Jost',sans-serif;font-weight:500;font-size:clamp(10px,1.8vw,12px);letter-spacing:.15em;text-transform:uppercase;border-radius:100px;cursor:pointer;appearance:none;-webkit-appearance:none;touch-action:manipulation;user-select:none;-webkit-user-select:none;position:relative;z-index:200;min-height:50px;transition:all .25s ease;}
 .btn-outline-retake:active{opacity:.75;transform:scale(.97);}
 /* Landscape */
 @media(max-height:500px) and (orientation:landscape){
@@ -167,7 +142,7 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
     <p class="intro-sub">One scent that's unmistakably yours. Signature, Refined.</p>
     <div class="pills">
       <div class="pill"><span class="pill-star">✦</span> 6 Questions</div>
-      <div class="pill"><span class="pill-star">✦</span> 4 Scent Profiles</div>
+      <div class="pill"><span class="pill-star">✦</span> 3 Scent Profiles</div>
       <div class="pill"><span class="pill-star">✦</span> 2 Minutes</div>
     </div>
     <button class="btn btn-gold" onclick="startQuiz()">Begin the Journey →</button>
@@ -189,12 +164,12 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
       <button class="gender-btn" id="btn-male" onclick="pickGender('male')">
         <div class="gender-icon">♂</div>
         <div class="gender-label">Male</div>
-        <div class="gender-sublabel">4 Scents</div>
+        <div class="gender-sublabel">3 Scents</div>
       </button>
       <button class="gender-btn" id="btn-female" onclick="pickGender('female')">
         <div class="gender-icon">♀</div>
         <div class="gender-label">Female</div>
-        <div class="gender-sublabel">4 Scents</div>
+        <div class="gender-sublabel">3 Scents</div>
       </button>
     </div>
   </div>
@@ -243,18 +218,6 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
       </div>
     </div>
 
-    <!-- S2: Recipe -->
-    <div class="res-section">
-      <div class="res-s-title">✦ Your Scent Recipe</div>
-      <div class="notes-grid" id="r-notes"></div>
-    </div>
-
-    <!-- S3: Oils Needed -->
-    <div class="res-section">
-      <div class="res-s-title">✦ Oils You'll Need</div>
-      <ul class="oils-list" id="r-oils"></ul>
-    </div>
-
     <!-- S4: Perfect Pair -->
     <div class="res-section">
       <div class="res-s-title">✦ You May Also Like</div>
@@ -280,29 +243,29 @@ body{background:var(--bg);color:var(--cream);font-family:'Jost',sans-serif;font-
 
 <script>
 const GENDER_SCENTS={
-  male:["Nuvè Veil","Ombrè Ameà","Nuvè Noir","Musç Nuvè"],
-  female:["Nuvè Veil","Bellè Velour","Fayè Lúmerè","Musç Nuvè"]
+  male:["Nuvè Veil","Ombrè Ameà","Nuvè Noir"],
+  female:["Nuvè Veil","Bellè Velour","Fayè Lúmerè"]
 };
 
 const QUESTIONS=[
   {t:"How do you want people to remember you?",
-   male:["Clean, fresh, and effortlessly classy","Strong, mysterious, and powerful","Warm, attractive, and unforgettable","Deep, sensual, and magnetic"],
-   female:["Clean, fresh, and effortlessly classy","Elegant, soft, and graceful","Subtle, comforting, and intimate","Deep, sensual, and magnetic"]},
+   male:["Clean, fresh, and effortlessly classy","Strong, mysterious, and powerful","Warm, attractive, and unforgettable"],
+   female:["Clean, fresh, and effortlessly classy","Elegant, soft, and graceful","Subtle, comforting, and intimate"]},
   {t:"Your ideal vibe is…",
-   male:["Minimalist luxury café ☕","Late-night city drive 🌃","Romantic candlelit dinner 🕯️","After-dark lounge 🍷"],
-   female:["Minimalist luxury café ☕","Garden brunch 🌸","Cozy day in bed 🛏️","After-dark lounge 🍷"]},
+   male:["Minimalist luxury café ☕","Late-night city drive 🌃","Romantic candlelit dinner 🕯️"],
+   female:["Minimalist luxury café ☕","Garden brunch 🌸","Cozy day in bed 🛏️"]},
   {t:"Pick a color palette that speaks to you.",
-   male:["White, green, light gold","Black, dark brown, steel","Deep red, amber, bronze","Plum, dark purple, charcoal"],
-   female:["White, green, light gold","Blush pink, cream, soft gold","Beige, skin tones, ivory","Plum, dark purple, charcoal"]},
+   male:["White, green, light gold","Black, dark brown, steel","Deep red, amber, bronze"],
+   female:["White, green, light gold","Blush pink, cream, soft gold","Beige, skin tones, ivory"]},
   {t:"What's your personality?",
-   male:["Chill but refined","Quiet but dominant","Charismatic and bold","Intense and passionate"],
-   female:["Chill but refined","Sweet but sophisticated","Soft and lowkey","Intense and passionate"]},
+   male:["Chill but refined","Quiet but dominant","Charismatic and bold"],
+   female:["Chill but refined","Sweet but sophisticated","Soft and lowkey"]},
   {t:"When do you usually wear perfume?",
-   male:["Everyday fresh vibes","Work / power moves","Dates / nights out","Special nights / statement scent"],
-   female:["Everyday fresh vibes","Events / daytime elegance","Personal / close moments","Special nights / statement scent"]},
+   male:["Everyday fresh vibes","Work / power moves","Dates / nights out"],
+   female:["Everyday fresh vibes","Events / daytime elegance","Personal / close moments"]},
   {t:"What kind of compliment do you want?",
-   male:['"You smell so clean and expensive"','"You smell powerful"','"You smell so attractive"','"You smell addictive"'],
-   female:['"You smell so clean and expensive"','"You smell elegant and pretty"','"You smell soft and comforting"','"You smell addictive"']},
+   male:['"You smell so clean and expensive"','"You smell powerful"','"You smell so attractive"'],
+   female:['"You smell so clean and expensive"','"You smell elegant and pretty"','"You smell soft and comforting"']},
 ];
 
 const SCENTS={
@@ -316,7 +279,7 @@ const SCENTS={
       base:{label:"Base Notes",pct:"20%",ml:6,items:["White Musk","Sandalwood","Cedarwood"]}
     },
     oils:["Bergamot EO","Green Tea Fragrance","White Musk FO","Jasmine Absolute","Sandalwood EO","Iris Fragrance","Cedarwood EO","Alcohol / Carrier"],
-    pairGender:{male:"Musç Nuvè",female:"Fayè Lúmerè"},
+    pairGender:{male:"Nuvè Noir",female:"Fayè Lúmerè"},
     custom:[
       {icon:"🍦",name:"Add Sweetness",desc:"Warm vanilla note",mod:"vanilla"},
       {icon:"🍋",name:"Add Freshness",desc:"Bright citrus burst",mod:"citrus"},
@@ -350,7 +313,7 @@ const SCENTS={
       base:{label:"Base Notes",pct:"20%",ml:6,items:["Dark Musk","Benzoin","Labdanum"]}
     },
     oils:["Saffron Absolute","Cinnamon Bark EO","Clove Bud EO","Amber Rose FO","Patchouli EO","Dark Musk FO","Benzoin Resinoid","Alcohol / Carrier"],
-    pairGender:{male:"Musç Nuvè",female:"Bellè Velour"},
+    pairGender:{male:"Ombrè Ameà",female:"Bellè Velour"},
     custom:[
       {icon:"🍦",name:"Add Sweetness",desc:"Caramel warmth",mod:"vanilla"},
       {icon:"🍋",name:"Add Freshness",desc:"Citrus zest lift",mod:"citrus"},
@@ -367,7 +330,7 @@ const SCENTS={
       base:{label:"Base Notes",pct:"20%",ml:6,items:["Soft Musk","Cashmeran","White Cedarwood"]}
     },
     oils:["Peony Fragrance","Pink Pepper EO","Rose Absolute","Gardenia FO","Magnolia FO","Soft Musk FO","Cashmeran FO","Alcohol / Carrier"],
-    pairGender:{male:"Musç Nuvè",female:"Fayè Lúmerè"},
+    pairGender:{male:"Nuvè Noir",female:"Fayè Lúmerè"},
     custom:[
       {icon:"🍦",name:"Add Sweetness",desc:"Powdery vanilla",mod:"vanilla"},
       {icon:"🍋",name:"Add Freshness",desc:"Light citrus veil",mod:"citrus"},
@@ -390,27 +353,10 @@ const SCENTS={
       {icon:"🍋",name:"Add Freshness",desc:"Soft citrus kiss",mod:"citrus"},
       {icon:"🪵",name:"Add Depth",desc:"Sandalwood base",mod:"wood"}
     ]
-  },
-  "Musç Nuvè":{
-    e:"🌑",tag:"Deep, sensual, and emotionally addictive.",
-    desc:"You leave a lasting emotional impression. A depth and intensity that lingers — in memory, in feeling, in desire. You are not forgotten. Ever.",
-    c:"#8b6b9e",rgb:"139,107,158",
-    notes:{
-      top:{label:"Top Notes",pct:"30%",ml:9,items:["Black Musk","Dark Suede","Violet","Rum"]},
-      mid:{label:"Middle Notes",pct:"50%",ml:15,items:["Ambergris","Orris","Dark Iris","Labdanum"]},
-      base:{label:"Base Notes",pct:"20%",ml:6,items:["Oud","Civet Accord","Dark Amber"]}
-    },
-    oils:["Black Musk FO","Suede Accord FO","Violet Absolute","Ambergris FO","Orris Root Absolute","Oud Fragrance","Dark Amber FO","Alcohol / Carrier"],
-    pairGender:{male:"Nuvè Noir",female:"Bellè Velour"},
-    custom:[
-      {icon:"🍦",name:"Add Sweetness",desc:"Dark caramel note",mod:"vanilla"},
-      {icon:"🍋",name:"Add Freshness",desc:"Citrus contrast",mod:"citrus"},
-      {icon:"🪵",name:"Add Depth",desc:"Oud amplifier",mod:"wood"}
-    ]
   }
 };
 
-const L=["A","B","C","D"];
+const L=["A","B","C"];
 let gender=null,scentPool=[],cur=0,scores={},answers=[];
 
 function initState(){
@@ -518,38 +464,9 @@ function showResult(w){
     box.appendChild(row);
   });
 
-  // S2 Recipe
-  const ng=document.getElementById("r-notes");ng.innerHTML="";
-  ["top","mid","base"].forEach(k=>{
-    const n=res.notes[k];
-    const mlEach=(n.ml/n.items.length).toFixed(1).replace(/\.0$/,"");
-    const card=document.createElement("div");card.className="note-card";
-    card.innerHTML=
-      '<div class="note-type">'+n.label+'</div>'+
-      '<div class="note-pct">'+n.pct+' <span class="note-ml">'+n.ml+'ml total</span></div>'+
-      '<ul class="note-list">'+n.items.map(i=>"<li><span class='note-ingredient'>"+i+"</span><span class='note-amount'>~"+mlEach+"ml</span></li>").join("")+"</ul>";
-    ng.appendChild(card);
-  });
-
-  // S3 Oils
-  const ol=document.getElementById("r-oils");ol.innerHTML="";
-  res.oils.forEach(o=>{const li=document.createElement("li");li.textContent=o;ol.appendChild(li);});
-
   // S4 Pair — gender-aware
   const pairName=res.pairGender[gender]||Object.values(res.pairGender).find(v=>v);
   const pairRes=SCENTS[pairName];
-
-  // Build pair recipe notes HTML
-  const pairNotesHTML=["top","mid","base"].map(k=>{
-    const n=pairRes.notes[k];
-    const mlEach=(n.ml/n.items.length).toFixed(1).replace(/\.0$/,"");
-    return '<div class="note-card">'+
-      '<div class="note-type">'+n.label+'</div>'+
-      '<div class="note-pct">'+n.pct+' <span class="note-ml">'+n.ml+'ml total</span></div>'+
-      '<ul class="note-list">'+n.items.map(i=>"<li><span class='note-ingredient'>"+i+"</span><span class='note-amount'>~"+mlEach+"ml</span></li>").join("")+"</ul>"+
-    '</div>';
-  }).join("");
-
   const pairEl=document.getElementById("r-pair");
   pairEl.innerHTML=
     '<div class="pair-header">'+
@@ -559,13 +476,6 @@ function showResult(w){
         '<div class="pair-name">'+pairName+'</div>'+
         '<div class="pair-tag">'+pairRes.tag+'</div>'+
       '</div>'+
-    '</div>'+
-    '<button class="pair-toggle" id="pair-toggle-btn" onclick="togglePairRecipe(this)">'+
-      '✦ View Recipe for 30ml'+
-      '<span class="pair-toggle-arrow">▾</span>'+
-    '</button>'+
-    '<div class="pair-recipe" id="pair-recipe-body">'+
-      '<div class="pair-notes-grid">'+pairNotesHTML+'</div>'+
     '</div>';
 
   // S5 Customize
@@ -586,13 +496,6 @@ function showResult(w){
   requestAnimationFrame(()=>requestAnimationFrame(()=>{
     document.querySelectorAll(".s-fill").forEach(b=>b.style.width=b.dataset.p+"%");
   }));
-}
-
-function togglePairRecipe(btn){
-  btn.classList.toggle("open");
-  const body=document.getElementById("pair-recipe-body");
-  body.classList.toggle("open");
-  btn.querySelector(".pair-toggle-arrow").textContent=body.classList.contains("open")?"▴":"▾";
 }
 
 function resetQuiz(){
